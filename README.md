@@ -1,5 +1,5 @@
 # TFHAssignment
-Software Requirement
+**Software Requirement**
     Appium server
     Android Studio
     Appium Inspector
@@ -7,20 +7,20 @@ Software Requirement
     Eclipse(Maven,TestNG integrated)
     GitHub
 
-Steps to be followed
+**Steps to be followed**
 How to connect device:
     Connect physical device by using Vysor app.
     Start appium server.
     Start appium inspector.
     Run  'adb devices' in the command prompt to show connected devices to the system.
     
-Capabilities:   
+**Capabilities: **  
     In appium inspector, Set Desired capabilities as,
             platformName ----- android,
             deviceName ------ android,
             app ------- path of apk file
 
-Steps Followed:
+**Steps Followed:**
     Create a new Maven project in Eclipse.
     Add dependencies to pom.xml.
     Create new packages named as baseclass and commons in src/main/java and test package in src/test/java.
@@ -31,12 +31,12 @@ Steps Followed:
     Insthed of using signInWithGoogle, I clicked on skip, as signInWithGoogle was showing security error.
 
 
-  How to execute:
+  **How to execute:**
     Clone the remote repository using below command
     git clone  https://github.com/dipali1011k/TFHAssignment/tree/master/TFHLoginAssignment
-  Import project as a Maven project in any IDE.
-  Perform maven clean,install.
-  Run testNG.xml as testNG Suite.
+    Import project as a Maven project in any IDE.
+    Perform maven clean,install.
+    Run testNG.xml as testNG Suite.
 
   
   
